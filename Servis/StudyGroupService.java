@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class StudyGroupService {
     private StudyGroup _studyGroup;
 
-    public void  createNewGroup(ArrayList<Student> students, Teacher teacher, int numberGroup){
-         _studyGroup = new StudyGroup(students,teacher,numberGroup);
+    public void  createNewGroup(ArrayList<Student> students, Teacher teacher){
+         _studyGroup = new StudyGroup(students,teacher);
     }
 
     public StudyGroup getGroup(){

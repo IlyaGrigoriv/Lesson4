@@ -13,6 +13,8 @@ public class Main {
         controller.showAllStudent();
         System.out.println();
         controller.showAllTeacher();
+        controller.createStudentGroup();
+        controller.showAllGroup();
 
     }
 }
